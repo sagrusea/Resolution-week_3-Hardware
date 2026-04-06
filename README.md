@@ -6,4 +6,4 @@ A cross made up of 16 leds with another 4 leds, one for each corner. I made this
 #### Schematic:
 <img src="./attachments/finalScheme.png">
 #### KiCanvas:  
-not yet
+<a href="https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Fsagrusea%2FResolution-week_3-Hardware%2Ftree%2Fmain%2Fsrc%2FKiCad">link</a>

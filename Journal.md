@@ -1,3 +1,7 @@
+## 1.4.2026
+### Time spent: 1h
+i wanted to make a row of leds going from 1 to x and from x to 1 and going at varying speeds that the ics would dictate. My first step was to try and simulate the ics in a software of some sort, well i spent an hour trying to get multiple diffrent simulators working. I tried to do it in falstad which would actually be possible but way too much work, so i tried the next best thing i could think of, kicad spice simulation. I tried to look up spice models of the cd4020 and cd4017 but i wasnt succesfull. So i tried asking ai to give me the spice models and yet again nothing, i did a lot of debugging since kicad always spat a lot of errors at me, i didnt understand a single error, after an hour i gave up..
+
 ## 2.4.2026
 ### Time spent: 20 mins
 I scrapped my old idea and started working on a completly new one.Firstly i looked up what the lm556 is and how i could use it, its basically 2 ne555s in one package, so i based my idea on 2 main frequencies. A crosshair of 8 (16 total) Leds + 4 leds in the corners, with frequencies as in the image. Since we have the main part i picked 2 cd4017 to drive the 16 leds i didnt have to research anything since i used it before. I will also most likely use a cd4020 for frequency C, and i will most likely change the frequencies(probably b and c so the cd4020 can handle tha math)  
